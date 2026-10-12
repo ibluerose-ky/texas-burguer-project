@@ -1,0 +1,758 @@
+{
+  "admin": {
+    "username": "kaykybarbosa",
+    "hash": "2a8cc7c1cbb1dd946c0c1fc2ec9e7f0f04e9ca269aec5d13e72cab5d0fdfca2528af8a0a08884fa43966996844e4d50268604cb5de6feaceaa1c6ca7f76e2981",
+    "salt": "f3953bcbacbc7bde9ff6e103ee4e5b81",
+    "updatedAt": "2026-10-12T16:28:42.294Z"
+  },
+  "settings": {
+    "storeName": "Texas Burguer",
+    "tagline": "Seu próximo burger favorito",
+    "phone": "(11) 98765-4321",
+    "whatsapp": "5511987654321",
+    "address": "Av. das Américas, 1250 - Jardins, São Paulo - SP",
+    "operatingHours": "Terça a Domingo: 18:00 às 23:45",
+    "isOpen": true,
+    "minOrder": 25,
+    "deliveryFee": 7.9,
+    "pickupAvailable": true,
+    "estimatedDeliveryMinutes": 40,
+    "bannerHeadline": "SEU PRÓXIMO BURGER FAVORITO.",
+    "bannerSubtext": "Hambúrguer artesanal na brasa, ingredientes selecionados e muito sabor em cada mordida."
+  },
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Hambúrgueres",
+      "icon": "burger",
+      "order": 1
+    },
+    {
+      "id": "combos",
+      "name": "Combos",
+      "icon": "combo",
+      "order": 2
+    },
+    {
+      "id": "sides",
+      "name": "Acompanhamentos",
+      "icon": "fries",
+      "order": 3
+    },
+    {
+      "id": "drinks",
+      "name": "Bebidas",
+      "icon": "drink",
+      "order": 4
+    },
+    {
+      "id": "desserts",
+      "name": "Sobremesas",
+      "icon": "dessert",
+      "order": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "tb-01",
+      "name": "Texas Classic",
+      "description": "Blend bovino 180g na brasa, queijo cheddar inglês, fatias de bacon crocante, alface americana fresca, tomate maduro e molho especial Texas no pão brioche amanteigado.",
+      "price": 34.9,
+      "promoPrice": null,
+      "categoryId": "burgers",
+      "image": "/src/assets/images/texas_classic_burger_1791821918441.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 44,
+      "minStock": 10,
+      "options": {
+        "removals": [
+          "Sem cebola",
+          "Sem picles",
+          "Sem molho",
+          "Sem tomate",
+          "Sem salada"
+        ],
+        "extras": [
+          {
+            "id": "bacon",
+            "name": "Bacon extra crocante",
+            "price": 5
+          },
+          {
+            "id": "cheddar",
+            "name": "Queijo cheddar cremoso",
+            "price": 4
+          },
+          {
+            "id": "patty",
+            "name": "Hambúrguer adicional 180g",
+            "price": 9
+          },
+          {
+            "id": "sauce",
+            "name": "Molho Texas Especial",
+            "price": 3
+          },
+          {
+            "id": "onion_jam",
+            "name": "Cebola caramelizada artesanal",
+            "price": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-02",
+      "name": "Texas Bacon Supreme",
+      "description": "Blend bovino 200g grelhado no fogo, generosa porção de bacon defumado crocante, dobro de queijo cheddar, maionese artesanal de bacon e barbecue no pão brioche dourado.",
+      "price": 38.9,
+      "promoPrice": 35.9,
+      "categoryId": "burgers",
+      "image": "/src/assets/images/hero_texas_burger_1791821904904.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 38,
+      "minStock": 8,
+      "options": {
+        "removals": [
+          "Sem barbecue",
+          "Sem maionese",
+          "Sem queijo"
+        ],
+        "extras": [
+          {
+            "id": "bacon",
+            "name": "Bacon extra crocante",
+            "price": 5
+          },
+          {
+            "id": "cheddar",
+            "name": "Queijo cheddar cremoso",
+            "price": 4
+          },
+          {
+            "id": "patty",
+            "name": "Hambúrguer adicional 180g",
+            "price": 9
+          },
+          {
+            "id": "sauce",
+            "name": "Molho Texas Especial",
+            "price": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-03",
+      "name": "Double Cheese Monster",
+      "description": "Dois suculentos blends de 150g cada, banho de fondue de queijo cheddar inglês, queijo gouda derretido, cebola crispy crocante e molho secreto no pão brioche selado.",
+      "price": 42.9,
+      "promoPrice": null,
+      "categoryId": "burgers",
+      "image": "/src/assets/images/hero_texas_burger_1791821904904.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 25,
+      "minStock": 5,
+      "options": {
+        "removals": [
+          "Sem cebola crispy",
+          "Sem molho secreto"
+        ],
+        "extras": [
+          {
+            "id": "bacon",
+            "name": "Bacon extra crocante",
+            "price": 5
+          },
+          {
+            "id": "cheddar",
+            "name": "Queijo cheddar extra",
+            "price": 4
+          },
+          {
+            "id": "sauce",
+            "name": "Molho Texas Especial",
+            "price": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-04",
+      "name": "Chicken Crispy Texas",
+      "description": "Sobrecoxa desossada ultra crocante temperada com especiarias texanas, salada coleslaw fresca, picles da casa e maionese de páprica defumada no pão brioche.",
+      "price": 31.9,
+      "promoPrice": null,
+      "categoryId": "burgers",
+      "image": "/src/assets/images/chicken_crispy_burger_1791821930964.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 30,
+      "minStock": 6,
+      "options": {
+        "removals": [
+          "Sem picles",
+          "Sem coleslaw",
+          "Sem maionese"
+        ],
+        "extras": [
+          {
+            "id": "bacon",
+            "name": "Bacon extra crocante",
+            "price": 5
+          },
+          {
+            "id": "cheddar",
+            "name": "Queijo cheddar cremoso",
+            "price": 4
+          },
+          {
+            "id": "sauce",
+            "name": "Molho Texas Especial",
+            "price": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-05",
+      "name": "Texas BBQ Burger",
+      "description": "Hambúrguer artesanal 180g coberto com suculenta costelinha desfiada ao barbecue autêntico, queijo provolone derretido e anéis de cebola no pão de brioche.",
+      "price": 39.9,
+      "promoPrice": null,
+      "categoryId": "burgers",
+      "image": "/src/assets/images/texas_classic_burger_1791821918441.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 22,
+      "minStock": 5,
+      "options": {
+        "removals": [
+          "Sem cebola",
+          "Sem barbecue"
+        ],
+        "extras": [
+          {
+            "id": "bacon",
+            "name": "Bacon extra crocante",
+            "price": 5
+          },
+          {
+            "id": "cheddar",
+            "name": "Queijo cheddar extra",
+            "price": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-06",
+      "name": "Combo Texas Clássico",
+      "description": "O combo favorito da galera: 1 Texas Classic + 1 Batata Frita Crocante Rústica pequena + 1 Refrigerante Lata 350ml geladinho.",
+      "price": 49.9,
+      "promoPrice": 44.9,
+      "categoryId": "combos",
+      "image": "/src/assets/images/hero_texas_burger_1791821904904.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 40,
+      "minStock": 8,
+      "options": {
+        "removals": [
+          "Sem cebola no burger",
+          "Sem molho no burger"
+        ],
+        "extras": [
+          {
+            "id": "bacon",
+            "name": "Bacon extra no burger",
+            "price": 5
+          },
+          {
+            "id": "cheddar_fries",
+            "name": "Cheddar e Bacon na batata",
+            "price": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-07",
+      "name": "Combo Texas Casal",
+      "description": "Perfeito para compartilhar: 2 Texas Burgers à sua escolha + 1 Batata Rústica Grande com Cheddar & Bacon + 2 Refrigerantes Lata.",
+      "price": 89.9,
+      "promoPrice": 79.9,
+      "categoryId": "combos",
+      "image": "/src/assets/images/hero_texas_burger_1791821904904.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 30,
+      "minStock": 5,
+      "options": {
+        "removals": [
+          "Sem cebola"
+        ],
+        "extras": [
+          {
+            "id": "extra_sauce",
+            "name": "Pote extra Molho Texas",
+            "price": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-08",
+      "name": "Batata Frita Crocante Rústica",
+      "description": "Batatas rústicas com corte especial, ultra sequinhas e crocantes, temperadas com páprica defumada e sal grosso. Acompanha maionese da casa.",
+      "price": 18.9,
+      "promoPrice": null,
+      "categoryId": "sides",
+      "image": "/src/assets/images/texas_fries_1791821943407.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 60,
+      "minStock": 15,
+      "options": {
+        "removals": [
+          "Sem tempero de páprica"
+        ],
+        "extras": [
+          {
+            "id": "cheddar_bacon",
+            "name": "Cobertura de Cheddar & Bacon",
+            "price": 6.9
+          },
+          {
+            "id": "extra_sauce",
+            "name": "Maionese Texas Extra",
+            "price": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-09",
+      "name": "Onion Rings Crocantes",
+      "description": "10 unidades de anéis de cebola selecionados com empanamento especial super crocante. Acompanha molho barbecue artesanal.",
+      "price": 22.9,
+      "promoPrice": null,
+      "categoryId": "sides",
+      "image": "/src/assets/images/texas_fries_1791821943407.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "stock": 35,
+      "minStock": 8,
+      "options": {
+        "removals": [],
+        "extras": [
+          {
+            "id": "extra_bbq",
+            "name": "Molho Barbecue Extra",
+            "price": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb-10",
+      "name": "Refrigerante Lata 350ml",
+      "description": "Refrigerante estupidamente gelado. Escolha entre Coca-Cola, Coca Zero, Guaraná Antarctica ou Sprite.",
+      "price": 6.9,
+      "promoPrice": null,
+      "categoryId": "drinks",
+      "image": "/src/assets/images/hero_texas_burger_1791821904904.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "stock": 120,
+      "minStock": 25,
+      "options": {
+        "removals": [],
+        "extras": []
+      }
+    },
+    {
+      "id": "tb-11",
+      "name": "Suco Natural da Fruta 400ml",
+      "description": "Suco natural feito na hora. Opções: Laranja fresca espremida, Maracujá ou Limonada Especial.",
+      "price": 9.9,
+      "promoPrice": null,
+      "categoryId": "drinks",
+      "image": "/src/assets/images/hero_texas_burger_1791821904904.jpg",
+      "isAvailable": true,
+      "isFeatured": false,
+      "stock": 50,
+      "minStock": 10,
+      "options": {
+        "removals": [
+          "Sem açúcar"
+        ],
+        "extras": []
+      }
+    },
+    {
+      "id": "tb-12",
+      "name": "Vulcão de Chocolate Belga",
+      "description": "Bolo quente de chocolate premium com coração derretido cremoso escorrendo pelo prato, finalizado com cacau puro polvilhado e bola de sorvete.",
+      "price": 24.9,
+      "promoPrice": 21.9,
+      "categoryId": "desserts",
+      "image": "/src/assets/images/chocolate_dessert_1791821954971.jpg",
+      "isAvailable": true,
+      "isFeatured": true,
+      "stock": 28,
+      "minStock": 6,
+      "options": {
+        "removals": [],
+        "extras": [
+          {
+            "id": "extra_ice_cream",
+            "name": "Bola extra de sorvete",
+            "price": 6
+          }
+        ]
+      }
+    }
+  ],
+  "coupons": [
+    {
+      "code": "PRIMEIRO20",
+      "type": "percent",
+      "value": 20,
+      "minOrder": 30,
+      "maxUses": 200,
+      "usedCount": 14,
+      "expiresAt": "2026-12-31",
+      "active": true
+    },
+    {
+      "code": "TEXAS10",
+      "type": "fixed",
+      "value": 10,
+      "minOrder": 50,
+      "maxUses": 100,
+      "usedCount": 8,
+      "expiresAt": "2026-12-31",
+      "active": true
+    },
+    {
+      "code": "BURGER5",
+      "type": "percent",
+      "value": 5,
+      "minOrder": 25,
+      "maxUses": 500,
+      "usedCount": 32,
+      "expiresAt": "2026-12-31",
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "TB-655769",
+      "customer": {
+        "name": "Teste Pedido",
+        "phone": "(11) 99999-9999",
+        "address": {
+          "street": "Rua Teste",
+          "number": "100",
+          "neighborhood": "Centro",
+          "city": "SP"
+        }
+      },
+      "deliveryType": "delivery",
+      "items": [
+        {
+          "productId": "tb-01",
+          "name": "Texas Classic",
+          "price": 34.9,
+          "basePrice": 34.9,
+          "quantity": 1,
+          "removals": [],
+          "extras": [],
+          "notes": "",
+          "total": 34.9
+        }
+      ],
+      "subtotal": 34.9,
+      "deliveryFee": 7.9,
+      "discount": 0,
+      "couponCode": null,
+      "total": 42.8,
+      "paymentMethod": "pix",
+      "paymentStatus": "approved",
+      "status": "in_preparation",
+      "notes": "",
+      "createdAt": "2026-10-12T16:29:26.557Z",
+      "estimatedDeliveryMinutes": 40,
+      "statusHistory": [
+        {
+          "status": "pending_payment",
+          "timestamp": "2026-10-12T16:29:26.557Z"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-10-12T16:29:41.925Z"
+        },
+        {
+          "status": "in_preparation",
+          "timestamp": "2026-10-12T16:29:41.925Z"
+        }
+      ]
+    },
+    {
+      "id": "TB-8941",
+      "customer": {
+        "name": "Lucas Ferreira",
+        "phone": "(11) 99123-4567",
+        "address": {
+          "street": "Rua Augusta",
+          "number": "1420",
+          "neighborhood": "Consolação",
+          "city": "São Paulo",
+          "complement": "Apto 42",
+          "reference": "Próximo ao metrô"
+        }
+      },
+      "deliveryType": "delivery",
+      "items": [
+        {
+          "productId": "tb-01",
+          "name": "Texas Classic",
+          "price": 34.9,
+          "quantity": 1,
+          "removals": [
+            "Sem picles"
+          ],
+          "extras": [
+            {
+              "id": "bacon",
+              "name": "Bacon extra crocante",
+              "price": 5
+            }
+          ],
+          "total": 39.9,
+          "notes": "Ponto da carne ao ponto."
+        },
+        {
+          "productId": "tb-08",
+          "name": "Batata Frita Crocante Rústica",
+          "price": 18.9,
+          "quantity": 1,
+          "removals": [],
+          "extras": [],
+          "total": 18.9,
+          "notes": ""
+        },
+        {
+          "productId": "tb-10",
+          "name": "Refrigerante Lata 350ml",
+          "price": 6.9,
+          "quantity": 1,
+          "removals": [],
+          "extras": [],
+          "total": 6.9,
+          "notes": "Coca-Cola Zero"
+        }
+      ],
+      "subtotal": 65.7,
+      "deliveryFee": 7.9,
+      "discount": 0,
+      "couponCode": null,
+      "total": 73.6,
+      "paymentMethod": "pix",
+      "paymentStatus": "approved",
+      "status": "in_preparation",
+      "createdAt": "2026-10-12T16:03:42.294Z",
+      "statusHistory": [
+        {
+          "status": "pending_payment",
+          "timestamp": "2026-10-12T16:03:42.294Z"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-10-12T16:04:42.294Z"
+        },
+        {
+          "status": "in_preparation",
+          "timestamp": "2026-10-12T16:08:42.294Z"
+        }
+      ]
+    },
+    {
+      "id": "TB-8935",
+      "customer": {
+        "name": "Mariana Duarte",
+        "phone": "(11) 98321-9876",
+        "address": {
+          "street": "Alameda Santos",
+          "number": "800",
+          "neighborhood": "Cerqueira César",
+          "city": "São Paulo",
+          "complement": "Conjunto 81",
+          "reference": ""
+        }
+      },
+      "deliveryType": "delivery",
+      "items": [
+        {
+          "productId": "tb-06",
+          "name": "Combo Texas Clássico",
+          "price": 44.9,
+          "quantity": 1,
+          "removals": [],
+          "extras": [],
+          "total": 44.9,
+          "notes": ""
+        }
+      ],
+      "subtotal": 44.9,
+      "deliveryFee": 7.9,
+      "discount": 5,
+      "couponCode": "BURGER5",
+      "total": 47.8,
+      "paymentMethod": "credit_card",
+      "paymentStatus": "approved",
+      "status": "out_for_delivery",
+      "createdAt": "2026-10-12T15:40:42.294Z",
+      "statusHistory": [
+        {
+          "status": "pending_payment",
+          "timestamp": "2026-10-12T15:40:42.294Z"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-10-12T15:41:42.294Z"
+        },
+        {
+          "status": "in_preparation",
+          "timestamp": "2026-10-12T15:48:42.294Z"
+        },
+        {
+          "status": "out_for_delivery",
+          "timestamp": "2026-10-12T16:18:42.294Z"
+        }
+      ]
+    },
+    {
+      "id": "TB-8920",
+      "customer": {
+        "name": "Rafael Mendes",
+        "phone": "(11) 97654-3210",
+        "address": null
+      },
+      "deliveryType": "pickup",
+      "items": [
+        {
+          "productId": "tb-02",
+          "name": "Texas Bacon Supreme",
+          "price": 35.9,
+          "quantity": 2,
+          "removals": [],
+          "extras": [],
+          "total": 71.8,
+          "notes": "Caprichar no barbecue por favor!"
+        },
+        {
+          "productId": "tb-12",
+          "name": "Vulcão de Chocolate Belga",
+          "price": 21.9,
+          "quantity": 1,
+          "removals": [],
+          "extras": [],
+          "total": 21.9,
+          "notes": ""
+        }
+      ],
+      "subtotal": 93.7,
+      "deliveryFee": 0,
+      "discount": 10,
+      "couponCode": "TEXAS10",
+      "total": 83.7,
+      "paymentMethod": "pix",
+      "paymentStatus": "approved",
+      "status": "completed",
+      "createdAt": "2026-10-12T14:28:42.294Z",
+      "statusHistory": [
+        {
+          "status": "pending_payment",
+          "timestamp": "2026-10-12T14:28:42.294Z"
+        },
+        {
+          "status": "payment_confirmed",
+          "timestamp": "2026-10-12T14:29:42.294Z"
+        },
+        {
+          "status": "in_preparation",
+          "timestamp": "2026-10-12T14:38:42.294Z"
+        },
+        {
+          "status": "ready_for_pickup",
+          "timestamp": "2026-10-12T15:03:42.294Z"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-10-12T15:28:42.294Z"
+        }
+      ]
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "mov-1791822566557-lqxllp",
+      "productId": "tb-01",
+      "type": "order",
+      "quantity": -1,
+      "reason": "Pedido TB-655769",
+      "createdAt": "2026-10-12T16:29:26.557Z"
+    },
+    {
+      "id": "mov-1",
+      "productId": "tb-01",
+      "type": "in",
+      "quantity": 50,
+      "reason": "Estoque inicial de abertura",
+      "createdAt": "2026-10-11T16:28:42.294Z"
+    },
+    {
+      "id": "mov-2",
+      "productId": "tb-01",
+      "type": "order",
+      "quantity": -1,
+      "reason": "Pedido TB-8941",
+      "createdAt": "2026-10-12T16:03:42.294Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1791822581925",
+      "timestamp": "2026-10-12T16:29:41.925Z",
+      "user": "gateway-pix",
+      "action": "Pagamento Pix aprovado TB-655769",
+      "details": "Recebimento de R$ 42.80 confirmado pelo gateway"
+    },
+    {
+      "id": "log-1791822566557",
+      "timestamp": "2026-10-12T16:29:26.557Z",
+      "user": "cliente",
+      "action": "Novo pedido TB-655769",
+      "details": "Teste Pedido - Total: R$ 42.80 (pix)"
+    },
+    {
+      "id": "log-1791822552193",
+      "timestamp": "2026-10-12T16:29:12.193Z",
+      "user": "kaykybarbosa",
+      "action": "Login administrativo",
+      "details": "Acesso bem-sucedido ao painel de controle"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-12T16:28:42.294Z",
+      "user": "sistema",
+      "action": "Inicialização do banco de dados Texas Burguer",
+      "details": "Configurações e catálogo inicial provisionados com sucesso"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Texas Burguer - Hamburgueria Artesanal & Delivery",
+  "description": "Sistema completo de pedidos online e delivery para a hamburgueria artesanal Texas Burguer, com cardápio interativo, checkout Pix e Cartão, e painel administrativo exclusivo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
